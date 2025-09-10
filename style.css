@@ -1,0 +1,69 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fdf6f0; /* Soft cream background */
+  color: #4b4b4b;
+  height: 100vh; /* Full height of the viewport */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+h1 {
+  text-align: center;
+  padding: 15px;
+  background-color: #e29587;
+  color: white;
+  font-size: 28px;
+  letter-spacing: 1px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  margin: 0;
+}
+.box {
+  background-color: #fffaf6;
+  max-width: 400px;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  text-align: center;
+  border: solid;
+}
+input[type="text"] {
+  width: 80%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #f9f3ef;
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+button {
+  padding: 12px 24px;
+  font-size: 16px;
+  border: none;
+  border-radius: 10px;
+  background-color: #e29587;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.sunny {
+  background-image: url('sunny.jpg');
+}
+
+.rainy {
+  background-image: url('rrain.jpg');
+}
+
+.cold {
+  background-image: url('cold.jpg');
+}
+
+.sunny, .rainy, .cold {
+  background-size: cover; 
+  background-repeat: no-repeat;
+  transition: background-image 0.5s ease;
+}
+
